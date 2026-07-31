@@ -255,6 +255,7 @@ a {
     margin-left: 28px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .hero .content-block .hero-cta-group .watch-video-btn .play-btn {
