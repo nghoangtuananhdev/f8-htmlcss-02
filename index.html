@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F8 Project 2</title>
+    <meta name="description"
+        content="Learn without limits with Lesson through courses, certificates, and degrees from world-class universities and companies.">
 
     <!-- Embed Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,14 +49,14 @@
     </header>
     <main>
         <!-- Hero -->
-        <div class="hero" id="courses">
+        <section class="hero" id="courses" aria-labelledby="hero-title">
             <div class="main-content">
                 <div class="body">
                     <!-- Hero Image Block -->
                     <div class="img-block">
-                        <img src="./assets/img/hero-img.svg" class="hero-img">
-                        <div class="info-block">
-                            <div class="item">
+                        <img src="./assets/img/hero-img.svg" alt="Students learning with Lesson" class="hero-img">
+                        <ul class="info-block">
+                            <li class="item">
                                 <div class="icon">
                                     <img src="./assets/icon/list.svg" alt="UI/UX Design">
                                 </div>
@@ -62,8 +64,8 @@
                                     <div class="stats">20 Courses</div>
                                     <div class="title">UI/UX Design</div>
                                 </div>
-                            </div>
-                            <div class="item">
+                            </li>
+                            <li class="item">
                                 <div class="icon">
                                     <img src="./assets/icon/code.svg" alt="Development">
                                 </div>
@@ -71,8 +73,8 @@
                                     <div class="stats">20 Courses</div>
                                     <div class="title">Development</div>
                                 </div>
-                            </div>
-                            <div class="item">
+                            </li>
+                            <li class="item">
                                 <div class="icon">
                                     <img src="./assets/icon/speaker.svg" alt="Marketing">
                                 </div>
@@ -80,20 +82,20 @@
                                     <div class="stats">30 Courses</div>
                                     <div class="title">Marketing</div>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                     <!-- Hero Content Block -->
                     <div class="content-block">
-                        <h1 class="heading lv1">Learn without limits and spread knowledge.</h1>
+                        <h1 class="heading lv1" id="hero-title">Learn without limits and spread knowledge.</h1>
                         <p class="desc">Build new skills for that “this is my year” feeling with courses, certificates,
                             and degrees from world-class universities and companies.</p>
                         <div class="hero-cta-group">
                             <a href="#!" class="btn hero-btn">See Courses</a>
-                            <button class="watch-video-btn">
-                                <div class="play-btn">
+                            <button type="button" class="watch-video-btn">
+                                <span class="play-btn">
                                     <img src="./assets/icon/play-btn.svg" alt="Watch Video" class="play-icon">
-                                </div>
+                                </span>
                                 <span class="title">Watch Video</span>
                             </button>
                         </div>
@@ -105,26 +107,26 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Popular -->
-        <div class="popular" id="pricing">
+        <section class="popular" id="pricing" aria-labelledby="popular-title">
             <div class="main-content">
                 <div class="popular-top">
                     <div class="info">
-                        <h2 class="heading lv2">Our popular courses</h2>
+                        <h2 class="heading lv2" id="popular-title">Our popular courses</h2>
                         <p class="desc">Build new skills with new trendy courses and shine for the next future career.
                         </p>
                     </div>
                     <div class="control">
-                        <button class="control-item">
+                        <button type="button" class="control-item" aria-label="Previous courses">
                             <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.5 0.5L0.5 6.5L6.5 12.5" stroke="currentColor" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button class="control-item">
+                        <button type="button" class="control-item" aria-label="Next courses">
                             <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.5 0.5L6.5 6.5L0.5 12.5" stroke="currentColor" stroke-linecap="round"
@@ -137,9 +139,9 @@
                 <!-- Popular Bottom -->
                 <div class="popular-bot">
                     <!-- Course List -->
-                    <div class="course-list">
+                    <ul class="course-list">
                         <!-- Course Item 1 -->
-                        <div class="course-item">
+                        <li class="course-item">
                             <a href="#!">
                                 <img src="./assets/img/course-1.png" alt="Basic web design" class="thumb">
                             </a>
@@ -158,12 +160,12 @@
                                 </p>
                                 <div class="book">
                                     <div class="price">$120.75</div>
-                                    <button class="btn book-btn">Book Now</button>
+                                    <button type="button" class="btn book-btn">Book Now</button>
                                 </div>
                             </div>
-                        </div>
+                        </li>
                         <!-- Course Item 2 -->
-                        <div class="course-item">
+                        <li class="course-item">
                             <a href="#!">
                                 <img src="./assets/img/course-2.png" alt="UI/UX design" class="thumb">
                             </a>
@@ -182,12 +184,12 @@
                                 </p>
                                 <div class="book">
                                     <div class="price">$120.75</div>
-                                    <button class="btn book-btn">Book Now</button>
+                                    <button type="button" class="btn book-btn">Book Now</button>
                                 </div>
                             </div>
-                        </div>
+                        </li>
                         <!-- Course Item 3 -->
-                        <div class="course-item">
+                        <li class="course-item">
                             <a href="#!">
                                 <img src="./assets/img/course-3.png" alt="Web App design" class="thumb">
                             </a>
@@ -207,21 +209,21 @@
                                 </p>
                                 <div class="book">
                                     <div class="price">$120.75</div>
-                                    <button class="btn book-btn">Book Now</button>
+                                    <button type="button" class="btn book-btn">Book Now</button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Feedback -->
-        <div class="feedback" id="reviews">
+        <section class="feedback" id="reviews" aria-label="Student reviews">
             <div class="main-content">
-                <div class="feedback-list">
+                <ul class="feedback-list">
                     <!-- Feedback item 1 -->
-                    <div class="feedback-item">
+                    <li class="feedback-item">
                         <div class="info">
                             <img src="./assets/img/avatar-2.svg" alt="Peter Moor" class="avatar">
                             <p class="name">Peter Moor</p>
@@ -240,10 +242,10 @@
                                 validating the skills I've learned."
                             </blockquote>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Feedback item 2 -->
-                    <div class="feedback-item">
+                    <li class="feedback-item">
                         <div class="info">
                             <img src="./assets/img/avatar-2.svg" alt="Peter Moor" class="avatar">
                             <p class="name">Peter Moor</p>
@@ -262,10 +264,10 @@
                                 validating the skills I've learned."
                             </blockquote>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Feedback item 3 -->
-                    <div class="feedback-item">
+                    <li class="feedback-item">
                         <div class="info">
                             <img src="./assets/img/avatar-2.svg" alt="Peter Moor" class="avatar">
                             <p class="name">Peter Moor</p>
@@ -284,13 +286,13 @@
                                 validating the skills I've learned."
                             </blockquote>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </section>
 
         <!-- Feature 1 -->
-        <div class="feature">
+        <section class="feature" aria-labelledby="feature-one-title">
             <div class="main-content">
                 <div class="body">
                     <div class="images">
@@ -299,7 +301,8 @@
                         <img src="./assets/img/feature-2.svg" alt="Learner outcomes through our awesome platform">
                     </div>
                     <div class="content">
-                        <h2 class="heading lv2">Learner outcomes through our awesome platform</h2>
+                        <h2 class="heading lv2" id="feature-one-title">Learner outcomes through our awesome platform
+                        </h2>
                         <p class="desc">87% of people learning for professional development report career benefits like
                             getting a promotion, a raise, or starting a new career.</p>
                         <p class="desc">Lesson Impact Report (2022)</p>
@@ -307,10 +310,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Feature 2 -->
-        <div class="feature feature-2nd">
+        <section class="feature feature-2nd" aria-labelledby="feature-two-title">
             <div class="main-content">
                 <div class="body">
                     <div class="images">
@@ -318,7 +321,8 @@
                             alt="Take the next step toward your personal and professional goals with Lesson.">
                     </div>
                     <div class="content">
-                        <h2 class="heading lv2">Take the next step toward your personal and professional goals with
+                        <h2 class="heading lv2" id="feature-two-title">Take the next step toward your personal and
+                            professional goals with
                             Lesson.</h2>
                         <p class="desc">Take the next step toward. Join now to receive personalized and more
                             recommendations from the full Coursera catalog.</p>
@@ -326,149 +330,149 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Blog -->
-        <div class="blog">
+        <section class="blog" aria-labelledby="blog-title">
             <div class="main-content">
-                <h2 class="heading lv2">Our blog</h2>
+                <h2 class="heading lv2" id="blog-title">Our blog</h2>
                 <p class="desc">Read our regular travel blog and know the latest update of tour and travel</p>
-                <div class="blog-list">
+                <ul class="blog-list">
                     <!-- Blog item 1 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-1.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 2 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-2.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 3 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-3.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 4 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-1.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 5 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-2.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 6 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-3.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 7 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-1.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 8 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-2.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
+                    </li>
 
                     <!-- Blog item 9 -->
-                    <div class="blog-item">
+                    <li class="blog-item">
                         <a href="#!">
                             <img src="./assets/img/blog-3.svg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
                         </a>
                         <div class="info">
-                            <span class="date">21 November 2021</span>
+                            <time class="date" datetime="2021-11-21">21 November 2021</time>
                             <h3 class="title">
                                 <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
                             </h3>
                             <a href="#!" class="btn btn-blog">Read More</a>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
 
                 <div class="dots">
                     <span class="dot"></span>
@@ -478,7 +482,7 @@
             </div>
 
 
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -489,7 +493,7 @@
                     <img src="./assets/img/logo-lesson-white.svg" alt="Lesson." class="logo">
                     <p class="desc">Need to help for your dream Career? trust us. With Lesson, study becomes a lot
                         easier with us.</p>
-                    <div class="footer-socials">
+                    <nav class="footer-socials" aria-label="Social media">
                         <a href="#!">
                             <img src="./assets/icon/twitter.svg" alt="Twitter">
                         </a>
@@ -502,41 +506,41 @@
                         <a href="#!">
                             <img src="./assets/icon/instagram.svg" alt="Instagram">
                         </a>
-                    </div>
+                    </nav>
                 </div>
 
                 <!-- Column 2 -->
-                <div class="col">
-                    <h3 class="footer-title">Company</h3>
+                <nav class="col" aria-labelledby="footer-company-title">
+                    <h3 class="footer-title" id="footer-company-title">Company</h3>
                     <ul class="footer-list">
                         <li class="footer-list-item"><a href="#!">About Us</a></li>
                         <li class="footer-list-item"><a href="#!">Features</a></li>
                         <li class="footer-list-item"><a href="#!">Our Pricing</a></li>
                         <li class="footer-list-item"><a href="#!">Latest News</a></li>
                     </ul>
-                </div>
+                </nav>
 
                 <!-- Column 3 -->
-                <div class="col">
-                    <h3 class="footer-title">Support</h3>
+                <nav class="col" aria-labelledby="footer-support-title">
+                    <h3 class="footer-title" id="footer-support-title">Support</h3>
                     <ul class="footer-list">
                         <li class="footer-list-item"><a href="#!">FAQ’s</a></li>
                         <li class="footer-list-item"><a href="#!">Terms & Conditions</a></li>
                         <li class="footer-list-item"><a href="#!">Privacy Policy</a></li>
                         <li class="footer-list-item"><a href="#!">Contact Us</a></li>
                     </ul>
-                </div>
+                </nav>
 
                 <!-- Column 4 -->
-                <div class="col">
-                    <h3 class="footer-title">Address</h3>
+                <address class="col" aria-labelledby="footer-address-title">
+                    <h3 class="footer-title" id="footer-address-title">Address</h3>
                     <ul class="footer-list">
                         <li class="footer-list-item"><a href="#!"><strong>Location:</strong> 27 Division St, New York,
                                 NY 10002, USA</a></li>
                         <li class="footer-list-item"><a href="#!"><strong>Email:</strong> email@gmail.com</a></li>
                         <li class="footer-list-item"><a href="#!"><strong>Phone:</strong> + 000 1234 567 890</a></li>
                     </ul>
-                </div>
+                </address>
             </div>
 
             <!-- Copyright -->

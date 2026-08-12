@@ -792,6 +792,10 @@ a {
   width: calc(100% - 35% - 22.2% - 22.8%);
 }
 
+.footer .row address {
+  font-style: normal;
+}
+
 .footer .row .desc {
   width: 267px;
   margin-top: 18px;
