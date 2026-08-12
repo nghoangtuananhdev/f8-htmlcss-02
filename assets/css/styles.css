@@ -829,6 +829,11 @@ a {
   text-decoration: none;
 }
 
+.footer-list-item a:link {
+    color: #BFBCB2; 
+    text-decoration: none; 
+}
+
 .footer-list-item a:visited {
     color: #BFBCB2; 
     text-decoration: none; 
